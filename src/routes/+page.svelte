@@ -2,19 +2,6 @@
   import DiscordMark from "$lib/components/svg/discord-mark-white.svelte"
 </script>
 
-<!--
-<div class="badge badge-secondary badge-outline rounded-full h-9 w-24 shadow-sm shadow-secondary">
-  <div class="join">
-    <div class="avatar w-6 items-center m-1">
-      <DiscordMark class="size-6 fill-secondary" />
-
-    </div>
-    <div class="badge badge-accent h-7 h-3/4 m-0.5 rounded-full">@spfj</div>
-  </div>
-</div>
-
--->
-
 <style>
   #background {
    /* diameter of the circle */
@@ -53,14 +40,17 @@
     </div>
 
     <div class="hero-content text-center">
-    <div class="max-w-md">
-      <h1 class="text-5xl font-extrabold text-primary">@spfj</h1>
-      <p class="py-6">Hello! This domain is owned by me.<br/>You can contact me on Discord :)</p>
-      <!--<button class="btn btn-sm btn-primary shadow-lg shadow-primary">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
-        Click
-      </button>-->
-    </div>
+      <div class="max-w-md">
+        <h1 class="text-5xl font-extrabold text-primary">
+          <DiscordMark class="size-6 fill-primary fixed mt-5" />
+          @spfj
+        </h1>
+        <p class="py-6">Hi! 👋 This domain is owned by me;<br/>Don't hesitate to contact.</p>
+        <!--<button class="btn btn-sm btn-primary shadow-lg shadow-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+          Click
+        </button>-->
+      </div>
   </div>
   </div>
 </div>
